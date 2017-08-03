@@ -219,53 +219,73 @@ body {
   color: #fff;
   font-size: 0.34rem;
 }
-.two {
-  height: 7.95rem;
+.listwrap {
+  margin-bottom: 2.23rem;
+}
+.listwrap .itemlist {
+  margin-top: 0.27rem;
+  margin-bottom: 0.27rem;
   background: #f9f9f9;
 }
-.two a {
+.listwrap .itemlist .item {
   display: flex;
+  align-items: center;
+  font-size: 0.25rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  margin-bottom: 0.27rem;
+  align-content: center;
 }
-.two a img {
-  height: 2.37rem;
-  width: 2.37rem;
-  margin-top: 0.55rem;
-  margin: 0 auto;
-  line-height: 2.37rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.two p {
-  padding-left: 0.38rem;
-  font-size: 0.26rem;
-}
-.two .phone {
-  width: 7rem;
-  height: 0.77rem;
-  border: 1px solid #EEE;
-  border-radius: 0.1rem;
-  background: #fff;
-  margin: 0 auto;
-  margin-top: 0.25rem;
-  line-height: 0.77rem;
-}
-.two .next {
-  width: 6.92rem;
-  height: 0.81rem;
-  border: 1px solid #EEE;
-  background: #FA3432 ;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 0.81rem;
-  margin-top: 0.23rem;
-}
-.two .next p {
+.listwrap .itemlist .item .icon-icon4 {
+  width: 0.58rem;
+  height: 0.58rem;
+  font-size: 0.25rem;
   color: #fff;
-  font-size: 0.3rem;
-}
-.two .xieyi {
+  background: #FA9A33;
+  line-height: 0.58rem;
   text-align: center;
-  margin-top: 0.23rem;
+  border-radius: 0.1rem;
+  margin-right: 0.21rem;
+}
+.listwrap .itemlist .item p {
+  margin-right: auto;
+}
+.phone {
+  height: 1.28rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  margin-bottom: 0.3rem;
+  background-color: #fff;
+}
+.phone .phonep {
+  display: flex;
+  align-items: center;
+  padding-top: 0.2rem;
+  font-size: 0.28rem;
+  justify-content: start;
+}
+.phone .phonep .icon-dianhua {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 20%;
+  background: #22CFD8;
+  font-size: 0.28rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.8rem;
+  margin-right: 0.3rem;
+}
+.phone .phonep li {
+  line-height: 1.5;
+}
+.phone .phonep em {
+  color: #06A2CE;
+  font-size: 0.28rem;
+  font-family: normal;
+}
+.phone .phonep .color {
+  color: #A4A4A4;
+  font-size: 0.24rem;
 }
 .footer {
   height: 1.67rem;

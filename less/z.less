@@ -429,12 +429,7 @@
   border-width:@w;
   .triangle-compatible();
 }
-.triangle-t(@w:5px,@color:#ccc){
-  border-style:dashed dashed solid dashed;
-  border-color:transparent transparent @color transparent;
-  border-width:@w;
-  .triangle-compatible();
-}
+
 .triangle-r(@w:5px,@color:#ccc){
   border-style:dashed dashed dashed solid;
   border-color:transparent transparent transparent @color;
@@ -478,6 +473,12 @@
   width:100% - @substract;
 }
 @basiWidth:100;//只是定义的变量
+.triangle-b(@w:5,@color:#ccc){
+  border-style:solid dashed dashed dashed;
+  border-color:@color transparent transparent transparent;
+  border-width:@w / @basiWidth * 1rem;
+  .triangle-compatible();
+}
 .fs(@v){font-size:@v/@basiWidth*1rem};
 .h(@v){height:@v/@basiWidth*1rem};
 .w(@v){width:@v/@basiWidth*1rem};
@@ -495,3 +496,7 @@
 .bs(@v1,@v2){ background-size:@v1/@basiWidth*1rem @v2/@basiWidth*1rem ;}
 
 .br(@v){border-radius:@v/@basiWidth*1rem};
+.top(@v){top:@v/@basiWidth*1rem};
+.bottom(@v){bottom:@v/@basiWidth*1rem};
+.left(@v){left:@v/@basiWidth*1rem};
+.hc(){left:50%; transform: translateX(-50%); position:absolute;}

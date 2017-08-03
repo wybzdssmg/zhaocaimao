@@ -12,12 +12,32 @@
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
 	</head>
 	<body>
-		<div class="header">
-			<a class="box" href="">
-				<i class="iconfont icon-fanhui"></i>
+		
+			<div class="box" >
+				<a href="index.html"><i class="iconfont icon-fanhui"></i></a>
 				<p>盈信计划2467号1期</p>
-				<i class="iconfont icon-menu"></i>
-			</a>
+				<i class="iconfont icon-menu" id="menu"></i>
+			</div>
+	
+		<div class="mask">
+			<div class="nva">
+				<a href="">
+					<i class="iconfont icon-icon02"></i>
+					<span>主页</span>
+				</a>
+				<a href="">
+					<i class="iconfont icon-liwu"></i>
+					<span>安全保障</span>
+				</a>
+				<a href="">
+					<i class="iconfont icon-shangjia"></i>
+					<span>我要投资</span>
+				</a>
+				<a href="">
+					<i class="iconfont icon-chazhao"></i>
+					<span>帐户中心</span>
+				</a>
+			</div>
 		</div>
 		<!--第二部分-->
 		<div class="two">
@@ -57,9 +77,10 @@
 		</div>
 		<!--第五部分-->
 		<div class="five">
-				<!--<div>
-					<i></i>
-				</div>-->
+				<div class="shuzi">
+					<div class="jindu">50%</div>
+				
+				</div>
 					
 				
 				<div class="progress">
@@ -99,5 +120,18 @@
 <br />
 <br />
 <br />
+
+
+<script src="js/zeptoJs/zepto.js"></script>
+<script src="js/zeptoJs/event.js"></script>
+<script src="js/zeptoJs/touch.js"></script>
+<script>
+	$(function(){
+		$("#menu").on("tap",function(){
+			console.log("tap");
+			$(".mask").toggle();
+		})
+	});
+</script>
 	</body>
 </html>
