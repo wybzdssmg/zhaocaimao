@@ -1,0 +1,191 @@
+@import "zcm.less";
+//第一部分
+.head{.h(94); background:#FA3432;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      .logo{  a{display:flex;
+                  color:#fff;
+                  align-items: center;
+                  img{.w(47);.h(49); .mr(10);.ml(16); }
+                  h1{.fs(30);}
+                } 
+        }
+        .zhuce{display:flex;.mr(18);
+                align-items: center;
+                color:#fff;
+                .z{.mr(6);}
+                .d{.ml(6);}
+                a{color:#fff;}
+        }
+}
+//第二部分
+.item{
+      .h(86);
+      background:#fff;
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      .one{color:#ff3636;}
+      a{.fs(34);color:#4b4a4a;} 
+}
+//第三部分轮播图开始
+
+.swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+    .swipe-wrap {
+      overflow: hidden;
+      position: relative;
+    }
+    .swipe-wrap > div {
+      float:left;
+      width:100%;
+      position: relative;
+    }
+    
+    img{ /*让图片100%*/
+        width: 100%;  
+    }
+    
+    .indirector{
+        position: absolute;
+        bottom:20px;
+        left:50%;transform: translateX(-50%);
+    }
+    .indirector span{
+        display: inline-block;margin: 3px;
+        width: 10px;height: 10px;border-radius: 50%;
+        background-color: #fff;
+    }
+    .indirector span.on{
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//第三部分轮播图结束
+//第四部分
+.itemlist{.pt(34);display:flex;justify-content: space-around;background: #fff;.pb(40);
+   .iconfont{.w(90);.h(90);
+             background-color: #4099E9;
+             border-radius: 40%;
+             .tc;
+            .lh(90);
+           .fs(50);
+           color:#fff;
+             display:block;
+    }
+    p{.fs(24);.tc;.mt(9);}
+    .icon-suo{background-color: #4099E9;}
+    .icon-women{background-color: #FB615F;}
+    .icon-xinshouzhiyin{background-color: #40C8B0;}
+    .icon-wenti{background-color: #FFAE28;}
+}//第四部分结束
+//第五部分开始---热门产品
+.hotproducts{
+              border-top:1px solid #ccc;
+              .title{display:flex;.mt(25);
+                     .fs(30);align-items: center;
+                     justify-content: space-between;
+                     h3{.ml(9);background:url(../img/home_ico_09.png) no-repeat;
+                      .bs(46,46);
+                       .w(250);color:#494848;
+                        .h(46);.lh(46);.pl(60); 
+                 } 
+                     a{color:#9a9b9c;.mr(9);}
+              } 
+             .itemlist1{.pl(23);.pr(23);.pt(25);
+                        .item1{border: 1px solid #ddd;
+                                background-color: #fff;
+                                padding: 0.25rem;
+                                margin-bottom: 10px;                               
+                            .item-title {
+                                            display:flex;
+                                            align-content: center;
+                                            justify-content: space-between;
+                                            .yingxin{.fs(28);color:#494848;.ml(25);}
+                                            span{   .money{.w(85);.h(30);
+                                                            border-radius:20%;
+                                                            background:#FFAB37;
+                                                    }
+                                                    .icon-vip{.w(33);.h(30);
+                                                                border-radius:20%;
+                                                                 background:#FFAB37;
+                                                    }
+                                            }
+                             } 
+                                 
+                        } 
+                        .date{display:flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                .mt(28);
+                                .date1{.mr(87);
+                                        strong{.fs(38);color:#FB4034; }
+                                        em{color:#FB4034; .fs(24);}
+                                }
+                                .date2{.fs(30);
+                                        p{color:#9a9b9c;.mt(25);}
+                                    
+                                }
+                                .date3{.ml(56);
+                                    img{.w(140);.h(140);}}
+                               
+                               
+                            
+                        }
+             }
+    
+}
+.news{border-bottom: 1px solid #ccc; 
+         .title{ display:flex;.pl(25);.pt(30);.pb(30);border-bottom: 1px solid #ccc;
+                h3{background:url(../img/home_ico_10.png) no-repeat;
+                   .bs(46,46);.pl(60); .fs(32);
+                   .w(250);.h(50);}
+        
+        }
+        .itemi{    background: #fff;
+                    .item-li{
+                        a{display:flex;align-items: center;
+                            img{.w(110);.h(110);border-radius:20%; .mt(35);.ml(23);.mb(35);.mr(23);}
+                            .center{.lh(50);
+                                display:flex;flex-direction: column;
+                                        flex:1 1 auto;h4{.fs(28);}
+                                      
+                                    .right{color:#9a9b9c;.fs(23);
+                                            display:flex;
+                                            justify-content: space-between;
+                                            span{.mr(20);}
+                                    }
+                            }
+                        }
+                        
+           
+                }
+        
+            
+        }
+}
+  .footer{.h(165);background:#fff;.pt(45);border-top:1px solid #ccc; .mt(23); .lh(50);
+        .ul{display:flex;justify-content: center;}
+        p{text-align: center;color:#9a9b9c;.fs(26);.pt(13);}
+
+        li{.mr(5);.ml(5);.mb(5);.fs(28);color:#494848;}
+  } 
+

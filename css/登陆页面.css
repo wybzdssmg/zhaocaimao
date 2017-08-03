@@ -1,0 +1,294 @@
+.tc {
+  text-align: center;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  font: 12px/20px "微软雅黑", "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+html {
+  font-size: 100px;
+}
+body {
+  background-color: #F9F9F9;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  font: 12px/20px "微软雅黑", "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+body {
+  background: #f9f9f9;
+}
+.header {
+  height: 0.92rem;
+  font-size: 0.28rem;
+  background: #FA3432;
+}
+.header .box {
+  display: flex;
+  height: 0.92rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .box .icon-fanhui {
+  width: 0.5rem;
+  height: 0.34rem;
+  color: #fff;
+  font-size: 0.34rem;
+}
+.header .box .icon-menu {
+  width: 0.5rem;
+  height: 0.34rem;
+  color: #fff;
+  font-size: 0.34rem;
+}
+.two {
+  height: 7.95rem;
+  background: #f9f9f9;
+}
+.two a {
+  display: flex;
+}
+.two a img {
+  height: 2.37rem;
+  width: 2.37rem;
+  margin-top: 0.55rem;
+  margin: 0 auto;
+  line-height: 2.37rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.two p {
+  padding-left: 0.38rem;
+  font-size: 0.26rem;
+}
+.two .phone {
+  width: 7rem;
+  height: 0.77rem;
+  border: 1px solid #EEE;
+  border-radius: 0.1rem;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 0.25rem;
+  line-height: 0.77rem;
+}
+.two .next {
+  width: 6.92rem;
+  height: 0.81rem;
+  border: 1px solid #EEE;
+  background: #FA3432 ;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 0.81rem;
+  margin-top: 0.23rem;
+}
+.two .next p {
+  color: #fff;
+  font-size: 0.3rem;
+}
+.two .xieyi {
+  text-align: center;
+  margin-top: 0.23rem;
+}
+.footer {
+  height: 1.67rem;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top: 0.23rem;
+  line-height: 0.5rem;
+}
+.footer .ul {
+  display: flex;
+  justify-content: center;
+}
+.footer p {
+  text-align: center;
+  color: #9a9b9c;
+  font-size: 0.26rem;
+  padding-top: 0.13rem;
+}
+.footer li {
+  margin-right: 0.05rem;
+  margin-left: 0.05rem;
+  margin-bottom: 0.05rem;
+  font-size: 0.28rem;
+  color: #494848;
+}

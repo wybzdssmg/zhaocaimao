@@ -1,0 +1,85 @@
+@import "z.less";
+@import "zcm.less";
+.reset-sina();
+
+.header{.h(92);
+        .fs(28);
+        background:#FA3432;
+        .box{display:flex;.h(92);
+            justify-content: space-around;
+            align-items: center;
+            .icon-fanhui{.w(50);.h(34);color:#fff;.fs(34);}
+            .icon-menu{.w(50);.h(34);color:#fff;.fs(34);}
+        }
+    
+}
+//第二部分
+.two{display:flex;
+        .h(222);align-items: center;
+        flex-direction: column;color:#FFFFFF;
+        background:#d80607;
+        .big{.fs(68);.mt(50);.mb(42);}
+        .small{.fs(30);}
+}
+//第三部分
+.three{.fs(30);color:#777;display:flex;
+        justify-content: space-around;
+    .h(79);border-bottom:1px solid #F1F0F0;
+    background:#fff;
+    align-items: center;
+}
+//第四部分
+.four{.fs(24);color:#ffc166;
+    .back{background:url(../img/detail_icon_bg.png) no-repeat center center;
+              background-size: 100% 100%;
+              .pt(68);.pl(40);.pr(40);background-origin:content-box;
+              li{display:flex;align-items: center;}
+              .iconfont{display:block;.lh(55);
+                 .w(55);.h(55);
+               border:0.02rem solid #f5f5f5;
+                 border-radius:50%;
+                 text-align:center;
+              }
+                .four-top{.mb(24);
+                    display:flex;
+                    justify-content: space-around;
+                }
+                .four-bottom{.mt(24);
+                   display:flex;
+                    justify-content: space-around;
+                }
+        }
+}
+//第五部分
+.five{.mt(80);
+        .progress{width:90%;background:#ddd;
+                  .h(20);    margin: 0 auto;
+                  border-radius:5%;.br(14);
+                  .progress-b{width:40%;background:red;
+                              .h(20);   .br(14);    
+                  } 
+           
+        }
+        .touzi{display:flex;.fs(22);color:#808080;
+                i{color:red;}
+                justify-content: space-between;
+                .mt(20);
+                .yi{.pl(30);}
+                .sh{.pr(30);}
+        }     
+}
+//最后一部分
+.footer{display:flex;.h(106);.mt(400);
+        background:#f0f0f0;
+        align-items: center;
+        position:fixed;bottom:0;width:100%;
+        justify-content: space-between;
+        p{.fs(32);.ml(39);
+           color:#f90;
+           border-bottom:1px solid #f90; 
+        }
+        span{.w(517);.h(82);background:#FA3432;
+                .br(10);.mr(13);.tc();.lh(82);color:#fff;
+        }
+    
+}

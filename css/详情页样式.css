@@ -1,0 +1,339 @@
+.tc {
+  text-align: center;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  font: 12px/20px "微软雅黑", "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+html {
+  font-size: 100px;
+}
+body {
+  background-color: #F9F9F9;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  font: 12px/20px "微软雅黑", "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+.header {
+  height: 0.92rem;
+  font-size: 0.28rem;
+  background: #FA3432;
+}
+.header .box {
+  display: flex;
+  height: 0.92rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .box .icon-fanhui {
+  width: 0.5rem;
+  height: 0.34rem;
+  color: #fff;
+  font-size: 0.34rem;
+}
+.header .box .icon-menu {
+  width: 0.5rem;
+  height: 0.34rem;
+  color: #fff;
+  font-size: 0.34rem;
+}
+.two {
+  display: flex;
+  height: 2.22rem;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+  background: #d80607;
+}
+.two .big {
+  font-size: 0.68rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.42rem;
+}
+.two .small {
+  font-size: 0.3rem;
+}
+.three {
+  font-size: 0.3rem;
+  color: #777;
+  display: flex;
+  justify-content: space-around;
+  height: 0.79rem;
+  border-bottom: 1px solid #F1F0F0;
+  background: #fff;
+  align-items: center;
+}
+.four {
+  font-size: 0.24rem;
+  color: #ffc166;
+}
+.four .back {
+  background: url(../img/detail_icon_bg.png) no-repeat center center;
+  background-size: 100% 100%;
+  padding-top: 0.68rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-origin: content-box;
+}
+.four .back li {
+  display: flex;
+  align-items: center;
+}
+.four .back .iconfont {
+  display: block;
+  line-height: 0.55rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 0.02rem solid #f5f5f5;
+  border-radius: 50%;
+  text-align: center;
+}
+.four .back .four-top {
+  margin-bottom: 0.24rem;
+  display: flex;
+  justify-content: space-around;
+}
+.four .back .four-bottom {
+  margin-top: 0.24rem;
+  display: flex;
+  justify-content: space-around;
+}
+.five {
+  margin-top: 0.8rem;
+}
+.five .progress {
+  width: 90%;
+  background: #ddd;
+  height: 0.2rem;
+  margin: 0 auto;
+  border-radius: 5%;
+  border-radius: 0.14rem;
+}
+.five .progress .progress-b {
+  width: 40%;
+  background: red;
+  height: 0.2rem;
+  border-radius: 0.14rem;
+}
+.five .touzi {
+  display: flex;
+  font-size: 0.22rem;
+  color: #808080;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.five .touzi i {
+  color: red;
+}
+.five .touzi .yi {
+  padding-left: 0.3rem;
+}
+.five .touzi .sh {
+  padding-right: 0.3rem;
+}
+.footer {
+  display: flex;
+  height: 1.06rem;
+  margin-top: 4rem;
+  background: #f0f0f0;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer p {
+  font-size: 0.32rem;
+  margin-left: 0.39rem;
+  color: #f90;
+  border-bottom: 1px solid #f90;
+}
+.footer span {
+  width: 5.17rem;
+  height: 0.82rem;
+  background: #FA3432;
+  border-radius: 0.1rem;
+  margin-right: 0.13rem;
+  text-align: center;
+  line-height: 0.82rem;
+  color: #fff;
+}
